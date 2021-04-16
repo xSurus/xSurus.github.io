@@ -3,12 +3,4 @@ date: "2017-06-26T18:27:58+01:00"
 title: "Home"
 ---
 
-Welcome to **Cupper**: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project. Here are some of its features:
-
-{{< ticks >}}
-* Screen reader and keyboard accessible
-* Responsive
-* Numerous shortcodes
-* Toggleable dark theme
-* Toggleable table of contents per blog post
-{{< /ticks >}}
+Welcome to **my blog**: To check out my blog posts, head over to: insert_link_here. To sort them by tags, try to click this link _insert_link_here. To find out more about me, have a look _insert_link_here. 
