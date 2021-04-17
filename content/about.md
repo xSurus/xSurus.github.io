@@ -3,17 +3,16 @@ title = "About"
 date = "2014-04-09"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
-  name = "Hugo Authors"
+  name = "Alexander Schlieper"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Welcome to my small **blog**. I will be posting interesting side projects of mine on here.
+<br>
 
-It makes use of a variety of open source projects including:
+* **About me**
+<br>
+I am a CS student currently in his second semester.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+* **About this blog**
+This blog is made with Hugo and hosted on GithubPages. The template was made by by [Djordje Atlialp](https://github.com/rhazdon)
