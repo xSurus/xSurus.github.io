@@ -16,6 +16,7 @@ I am a CS student currently in his second semester.
 
 * **About this blog**
 This blog is made with Hugo and hosted on GithubPages. The template was made by by [Djordje Atlialp](https://github.com/rhazdon)
+asdf
 <webring-banner>
     <p>Member of the <a href="https://xyquadrat.ch/polyring">Polyring</a> webring</p>
 </webring-banner>
