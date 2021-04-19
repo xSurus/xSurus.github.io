@@ -1,5 +1,5 @@
 baseURL = "https://www.schlieper.ch/"
-title   = "My Blog"
+title   = "surus' blog"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -55,13 +55,13 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = "surus' blog"
   keywords = ""
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "A fun blog"
+  homeSubtitle = "Yet another CS student's blog"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -132,8 +132,8 @@ disableHugoGeneratorInject = false
   # A better internet.
   # Uncomment this to enable Commento.
   #
-  # [params.commento]
-  #   url = ""
+   [params.commento]
+     url = ""
 
   # Uncomment this if you want a portrait on your start page
   #
@@ -143,9 +143,9 @@ disableHugoGeneratorInject = false
   #   maxWidth = "50px"
 
   # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+  # [[params.social]]
+  #  name = "twitter"
+  #  url  = "https://twitter.com/"
 
   [[params.social]]
     name = "email"
@@ -165,12 +165,12 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "by surus"
+    subtitle  = "by alexander"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.de]
-    subtitle  = "by surus"
+    subtitle  = "by alexander"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
