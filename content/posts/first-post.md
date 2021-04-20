@@ -2,7 +2,7 @@
 title: "Welcome"
 date: 2021-04-19T19:50:31+02:00
 draft: false
-toc: true
+toc: false
 images:
 tags:
   - untagged
