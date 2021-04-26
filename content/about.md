@@ -21,7 +21,7 @@ Being a CS student at ETH I have joined a network of likeminded students. If you
 {{< rawhtml >}}
 <br>
 <br>
-<webring-banner>
+<webring-banner id="polyring">
     <p>Member of the <a href="https://xyquadrat.ch/polyring">Polyring</a> webring.</p>
 </webring-banner>
 <script async src="https://xyquadrat.ch/polyring/embed.js" charset="utf-8"></script>
