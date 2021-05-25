@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - General Infos
 ---
 Welcome to my blog. This is my first ever post and I'll be going over what you can expect on here and how to navigate the site.
 ## Introduction
