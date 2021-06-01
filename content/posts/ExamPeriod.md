@@ -1,5 +1,5 @@
 ---
-title: "ExamPeriod"
+title: "Exam period"
 date: 2021-05-25T15:37:47+02:00
 draft: false
 toc: false
