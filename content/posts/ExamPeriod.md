@@ -13,8 +13,8 @@ tags:
 Since I am a student at ETH I will be entering my so called "holidays" in a week. They are "holidays" since they serve as 2 months of preparation for a series of exams. During this time I will be posting the one or the other concept, algorithm or thought experiment that fall into one of four subject:
 ## Algorithms and Probabilities
 Algorithms and Probabilities, or AnW for short, is all about probabilistic algorithms. This ranged from colouring to matchings over to probabilities (expected value, variance) to flows and convex hulls.
-## Analyis 2
-Analysis II is your basic Calculus course. From supremum and infimum up to partial integration this represents the main, purely mathematical part of this semester's courses.
+## Analyis 1
+Analysis I is your basic Calculus course. From supremum and infimum up to partial integration this represents the main, purely mathematical part of this semester's courses.
 ## Digital design and computer architecture
 Digital design and computer architecture, or DDCA for short, deals with the essence of computers at a lower abstraction level. This ranges from simple logic gates all the way to branch prediction and memory optimization.
 ## Parallel Programming
