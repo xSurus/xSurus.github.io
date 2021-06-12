@@ -12,7 +12,9 @@ In the first post of this series centered around my university degree I will be 
 
 The premise is the following:
 
-Assuming you have a function f(x) which you can integrate over the interval a to b. Calculate the following integral:
+We assume that we have a function f(x) which we can integrate over the interval a to b. 
+
+Calculate the following integral:
 $$\int_{a}^{b}\frac{\sqrt{x}}{\sqrt{6-x} + \sqrt{x}}dx$$
 Doesn't look trivial now, does it?
 But miraculously, it is! This whole integral equates to: 
