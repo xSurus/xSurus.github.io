@@ -15,13 +15,13 @@ The premise is the following:
 We assume that we have a function f(x) which we can integrate over the interval a to b. 
 
 Calculate the following integral:
-$$\int_{a}^{b}\frac{\sqrt{x}}{\sqrt{6-x} + \sqrt{x}}dx$$
+$$\int_{2}^{4}\frac{\sqrt{x}}{\sqrt{6-x} + \sqrt{x}} dx$$
 Doesn't look trivial now, does it?
 But miraculously, it is! This whole integral equates to: 
 $$\frac{b-a}{2} = 1$$.
 
 Let's take a look at another integral for fun.
-$$\int_{a}^{\frac{\pi}{2}}\frac{\sqrt{sin x}}{\sqrt{sin x} + \sqrt{cos x}}dx$$
+$$\int_{0}^{\frac{\pi}{2}}\frac{\sqrt{sin x}}{\sqrt{sin x} + \sqrt{cos x}}dx$$
 
 Can you see an emerging pattern? This is yet again equal to:
 $$\frac{b-a}{2} = \frac{\frac{\pi}{2}}{2} = \frac{\pi}{4}$$.
