@@ -1,16 +1,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on surus' blog</title><link>https://www.schlieper.ch/posts/</link><description>Recent content in Posts on surus' blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 12 Jun 2021 09:47:54 +0200</lastBuildDate><atom:link href="https://www.schlieper.ch/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Fun with integrations</title><link>https://www.schlieper.ch/posts/2021/06/fun-with-integrations/</link><pubDate>Sat, 12 Jun 2021 09:47:54 +0200</pubDate><guid>https://www.schlieper.ch/posts/2021/06/fun-with-integrations/</guid><description>In the first post of this series centered around my university degree I will be talking about integration. Now this topic wasn&amp;rsquo;t mentioned in our script but I rather stumbled upon it on youtube.
 The premise is the following:
 We assume that we have a function f(x) which we can integrate over the interval a to b.
-Calculate the following integral: $$\int_{a}^{b}\frac{\sqrt{x}}{\sqrt{6-x} + \sqrt{x}}dx$$ Doesn&amp;rsquo;t look trivial now, does it? But miraculously, it is!</description><content type="html"><![CDATA[<p>In the first post of this series centered around my university degree I will be talking about integration. Now this topic wasn&rsquo;t mentioned in our script but I rather stumbled upon it on youtube.</p>
+Calculate the following integral: $$\int_{2}^{4}\frac{\sqrt{x}}{\sqrt{6-x} + \sqrt{x}} dx$$ Doesn&amp;rsquo;t look trivial now, does it?</description><content type="html"><![CDATA[<p>In the first post of this series centered around my university degree I will be talking about integration. Now this topic wasn&rsquo;t mentioned in our script but I rather stumbled upon it on youtube.</p>
 <p>The premise is the following:</p>
 <p>We assume that we have a function f(x) which we can integrate over the interval a to b.</p>
 <p>Calculate the following integral:
-$$\int_{a}^{b}\frac{\sqrt{x}}{\sqrt{6-x} + \sqrt{x}}dx$$
+$$\int_{2}^{4}\frac{\sqrt{x}}{\sqrt{6-x} + \sqrt{x}} dx$$
 Doesn&rsquo;t look trivial now, does it?
 But miraculously, it is! This whole integral equates to:
 $$\frac{b-a}{2} = 1$$.</p>
 <p>Let&rsquo;s take a look at another integral for fun.
-$$\int_{a}^{\frac{\pi}{2}}\frac{\sqrt{sin x}}{\sqrt{sin x} + \sqrt{cos x}}dx$$</p>
+$$\int_{0}^{\frac{\pi}{2}}\frac{\sqrt{sin x}}{\sqrt{sin x} + \sqrt{cos x}}dx$$</p>
 <p>Can you see an emerging pattern? This is yet again equal to:
 $$\frac{b-a}{2} = \frac{\frac{\pi}{2}}{2} = \frac{\pi}{4}$$.</p>
 <p>We can observe that for any integral of the form
