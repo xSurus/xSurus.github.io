@@ -12,27 +12,13 @@ const chosenThemeIsLight = chosenTheme == "light";
 
 // Detect the color scheme the operating system prefers.
 function detectOSColorTheme() {
-  var myEle = document.getElementById("polyring");
-  if (chosenThemeIsDark) {
-    document.documentElement.setAttribute("data-theme", "dark");
-    if(myEle){
-      myele.setAttribute('theme', 'dark');
-    }
-  } else if (chosenThemeIsLight) {
-    document.documentElement.setAttribute("data-theme", "light");
-    if(myEle){
-      myele.setAttribute('theme', 'light');
-    }
-  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    document.documentElement.setAttribute("data-theme", "dark");
-    if(myEle){
-      myele.setAttribute('theme', 'dark');
-    }
-  } else {
-    document.documentElement.setAttribute("data-theme", "light");
-    if(myEle){
-      myele.setAttribute('theme', 'light');
-    }
+  var polyringElement = document.getElementById("polyring");
+  var shouldSetDarkTheme = chosenThemeIsDark || window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  document.documentElement.setAttribute("data-theme", shouldSetDarkTheme ? "dark" : "light");
+
+  if (polyringElement) {
+    polyringElement.setAttribute('theme', shouldSetDarkTheme ? 'dark' : 'light');
   }
 }
 
