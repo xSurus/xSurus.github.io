@@ -13,12 +13,12 @@ const chosenThemeIsLight = chosenTheme == "light";
 // Detect the color scheme the operating system prefers.
 function detectOSColorTheme() {
   var polyringElement = document.getElementById("polyring");
-  var shouldSetDarkTheme = chosenThemeIsDark || window.matchMedia("(prefers-color-scheme: dark)").matches;
-
+  var shouldSetDarkTheme = chosenThemeIsDark || (!chosenThemeIsLight && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  console.log(shouldSetDarkTheme)
   document.documentElement.setAttribute("data-theme", shouldSetDarkTheme ? "dark" : "light");
 
   if (polyringElement) {
-    polyringElement.setAttribute('theme', shouldSetDarkTheme ? 'dark' : 'light');
+    polyringElement.setAttribute('theme', shouldSetDarkTheme ? "dark.json" : 'light');
   }
 }
 
