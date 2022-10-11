@@ -4,7 +4,7 @@ date: 2021-06-12T09:47:54+02:00
 draft: false
 toc: false
 images:
-katex: true
+math: true
 tags:
   - Analyis I
 ---
