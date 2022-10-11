@@ -1,8 +1,8 @@
 ---
 title: "Viscon Hackathon"
 date: 2021-10-22T15:33:29+02:00
-draft: true
-toc: false
+draft: false
+toc: true
 images:
 tags:
   - Hackathon
