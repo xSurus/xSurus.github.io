@@ -1,4 +1,47 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on surus' blog</title><link>https://www.schlieper.ch/posts/</link><description>Recent content in Posts on surus' blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 22 Oct 2021 15:33:29 +0200</lastBuildDate><atom:link href="https://www.schlieper.ch/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Viscon Hackathon</title><link>https://www.schlieper.ch/posts/2021/10/viscon-hackathon/</link><pubDate>Fri, 22 Oct 2021 15:33:29 +0200</pubDate><guid>https://www.schlieper.ch/posts/2021/10/viscon-hackathon/</guid><description>After having finished a year of ETH I believed myself to be able to muster any problem thrown my way. After hearing from our student association, vis, that they were hosting a Hackathon at their VIScon, we signed up immediately. This was all of our first time participating in any kind of such competition and much like with this post, we didn&amp;rsquo;t really know what we were doing. I gathered four of my friends, some of whom were better programmers, and we dove in head-first.</description><content type="html"><![CDATA[<p>After having finished a year of ETH I believed myself to be able to muster any problem thrown my way. After hearing from our student association, vis, that they were hosting a Hackathon at their VIScon, we signed up immediately. This was all of our first time participating in any kind of such competition and much like with this post, we didn&rsquo;t really know what we were doing. I gathered four of my friends, some of whom were better programmers, and we dove in head-first.</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on surus' blog</title><link>https://www.schlieper.ch/posts/</link><description>Recent content in Posts on surus' blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Wed, 21 Dec 2022 16:28:11 +0100</lastBuildDate><atom:link href="https://www.schlieper.ch/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>voucherio --- Viscon Hackathon 2022</title><link>https://www.schlieper.ch/posts/2022/12/voucherio-viscon-hackathon-2022/</link><pubDate>Wed, 21 Dec 2022 16:28:11 +0100</pubDate><guid>https://www.schlieper.ch/posts/2022/12/voucherio-viscon-hackathon-2022/</guid><description>Our student association recently hosted a hackathon with the goal of creating a voucher marketplace for businesses (henceforth referred to as suppliers). The idea was to provide a platform for businesses to offer discounts and promotions to groups (henceforth referred to as seekers) and to thus simplify the purchasing of such amenities. The hackathon was a great success, with a diverse group of students coming together to work on the project.</description><content type="html"><![CDATA[<p>Our student association recently hosted a hackathon with the goal of creating a voucher marketplace for businesses (henceforth referred to as suppliers). The idea was to provide a platform for businesses to offer discounts and promotions to groups (henceforth referred to as seekers) and to thus simplify the purchasing of such amenities. The hackathon was a great success, with a diverse group of students coming together to work on the project. We were amazed at the creativity and dedication of the participants, and were proud to see the finished product take shape over the course of the weekend.</p>
+<h2 id="the-challenge">The Challenge</h2>
+<p>The voucher marketplace that was developed is a web-based platform that allows suppliers to create and post vouchers for seekers to purchase. Seekers can browse the available vouchers and purchase them. The vouchers can then be redeemed at the participating businesses, providing a convenient and cost-effective way for seekers to find vouchers for their events (such as this hackathon).</p>
+<h2 id="how-it-works">How it works</h2>
+<p>For the frontend, we used the Next.js framework to build a responsive and user-friendly interface for the voucher marketplace. Next.js is a popular framework for building server-rendered React applications, and we found it to be a great choice for this project due to its ease of use and powerful features. On the backend, we used a Postgres database to store and manage the data for the voucher marketplace. Postgres is a widely used and reliable open-source database, and we found it to be a great fit for our needs. We used the Node.js runtime to connect to the Postgres database and perform various operations, such as creating, reading, updating, and deleting vouchers.</p>
+<h2 id="features">Features</h2>
+<p>voucherio has a number of features that make it a great tool for both suppliers and seekers. Some of the most notable features include:</p>
+<ul>
+<li>A user-friendly interface that allows suppliers to easily create and manage their vouchers</li>
+<li>A search function that allows seekers to find vouchers that match their needs</li>
+<li>A filter function that allows seekers to filter vouchers by category
+<figure>
+    <img src="/images/orders.png"
+         alt="Overview of the orders page" width="600px"/> <figcaption>
+            <p>Overview of the orders page</p>
+        </figcaption>
+</figure>
+
+<figure>
+    <img src="/images/offers.png"
+         alt="Overview of the orders page" width="600px"/> <figcaption>
+            <p>Overview of the orders page</p>
+        </figcaption>
+</figure>
+
+One of the standout features of the voucher marketplace is the ability for businesses to customize their vouchers to suit their specific needs. This includes setting expiration dates, limits on the number of vouchers that can be purchased, and other parameters to ensure that the vouchers are used effectively.
+<figure>
+    <img src="/images/filter.png"
+         alt="Example of the filter on offers" width="600px"/> <figcaption>
+            <p>Example of the filter on offers</p>
+        </figcaption>
+</figure>
+</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<p>We are proud of the work that we have done on voucherio, and believe that it is a great example of what can be achieved in a short amount of time. However, there are still many improvements that can be made to the project, and we hope to continue working on it in the future. Some of the improvements that we would like to make include:</p>
+<ul>
+<li>Improving the current payment system to allow seekers to purchase vouchers more easily</li>
+<li>Adding a statistics page to allow suppliers to view the performance of their vouchers</li>
+<li>Reworking the UI and theme the whole page</li>
+</ul>
+<h2 id="results">Results</h2>
+<p>We are very happy with the results of the hackathon, and believe that we have created a great product that will be useful to many people. As with any other hackathon project, there are still many improvements that can be made, and we hope to continue working on the project in the future. It was a challenge, but, as always, a very welcome one.</p>
+]]></content></item><item><title>Viscon Hackathon 2021</title><link>https://www.schlieper.ch/posts/2021/10/viscon-hackathon-2021/</link><pubDate>Fri, 22 Oct 2021 15:33:29 +0200</pubDate><guid>https://www.schlieper.ch/posts/2021/10/viscon-hackathon-2021/</guid><description>After having finished a year of ETH I believed myself to be able to muster any problem thrown my way. After hearing from our student association, vis, that they were hosting a Hackathon at their VIScon, we signed up immediately. This was all of our first time participating in any kind of such competition and much like with this post, we didn&amp;rsquo;t really know what we were doing. I gathered four of my friends, some of whom were better programmers, and we dove in head-first.</description><content type="html"><![CDATA[<p>After having finished a year of ETH I believed myself to be able to muster any problem thrown my way. After hearing from our student association, vis, that they were hosting a Hackathon at their VIScon, we signed up immediately. This was all of our first time participating in any kind of such competition and much like with this post, we didn&rsquo;t really know what we were doing. I gathered four of my friends, some of whom were better programmers, and we dove in head-first.</p>
 <h1 id="challenges-and-organization">Challenges and organization</h1>
 <p>This hack was hosted at our university in the libraries and lecture halls. It started on a Friday afternoon, and we were soon introduced to the framework of this hackathon. Our task was to facilitate the life of our students through services that could be implemented by the student association.</p>
 <p>I do not quite recall all the challenges that one could choose from, but this should present a rough overview:
