@@ -1,5 +1,5 @@
 ---
-title: "Viscon Hackathon"
+title: "Viscon Hackathon 2021"
 date: 2021-10-22T15:33:29+02:00
 draft: false
 toc: true
