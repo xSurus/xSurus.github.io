@@ -13,6 +13,7 @@ technologies:
   - Crontab
   - Raspberry Pi
 ---
+The source code for this project can be found [here](https://github.com/xSurus/rusty_trader).
 ## Motivation
 Almost a year ago, Fireship, a great Youtube creator and developer, released a video on his channel, where he created a [stock trading bot](https://www.youtube.com/watch?v=BrcugNqRwUs&t=132s) based on the [inverse Jim Cramer](https://www.whitecoatinvestor.com/jim-cramer-inverse-etf/) strategy. The idea behind this being, that Jim Cramer gives terrible stock picks and doing the opposite might actually result in a positive return. I was very intrigued by this video and decided to try it out myself.
 
