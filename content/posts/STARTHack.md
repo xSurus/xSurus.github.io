@@ -1,7 +1,7 @@
 ---
 title: "STARTHack"
 date: 2022-08-25T15:33:37+02:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
