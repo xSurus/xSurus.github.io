@@ -46,6 +46,7 @@ disableHugoGeneratorInject = false
   tag      = "tags"
   category = "categories"
   series   = "series"
+  technologies = "technologies"
 
 [params]
   dateform        = "Jan 2, 2006"

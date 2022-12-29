@@ -6,6 +6,12 @@ toc: true
 images:
 tags:
   - Hackathon
+  - WebApp
+technologies:
+  - Next.js
+  - MongoDB
+  - TypeScript
+  - JavaScript
 ---
 After having finished a year of ETH I believed myself to be able to muster any problem thrown my way. After hearing from our student association, vis, that they were hosting a Hackathon at their VIScon, we signed up immediately. This was all of our first time participating in any kind of such competition and much like with this post, we didn't really know what we were doing. I gathered four of my friends, some of whom were better programmers, and we dove in head-first.
 
