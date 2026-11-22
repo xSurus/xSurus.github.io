@@ -9,6 +9,5 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Alexander Schlieper. MSc Computer Science at ETH Zurich, machine learning and ML systems."
-  email = "alexander@schlieper.ch"
   github = "https://github.com/xSurus"
   linkedin = "https://www.linkedin.com/in/alexander-schlieper"
