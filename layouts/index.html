@@ -1,29 +1,33 @@
-{{ define "body" }}
-    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ define "main" }}
+<h1>{{ site.Title }}</h1>
+<p class="sub">MSc Computer Science, ETH Zurich · Machine learning and ML systems</p>
+<p class="links">
+  <a href="mailto:{{ site.Params.email }}">Email</a>
+  <a href="{{ site.Params.github }}">GitHub</a>
+  <a href="{{ site.Params.linkedin }}">LinkedIn</a>
+  <a href="/cv.pdf">CV</a>
+</p>
+{{ .Content }}
+
+<h2 class="sec">Projects</h2>
+{{ range hugo.Data.projects }}
+<div class="project">
+  {{ with .image }}<img src="/{{ . }}" alt="" loading="lazy">{{ end }}
+  <div>
+    <h3>{{ .title }} <span class="muted">· {{ .year }}</span></h3>
+    <p>{{ .text }}</p>
+    <p class="links">{{ range .links }}<a href="{{ index . 1 }}">{{ index . 0 }}</a>{{ end }}</p>
+  </div>
+</div>
 {{ end }}
 
-{{ define "main" }}
-    <main aria-role="main">
-        <div>
-            {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
+<h2 class="sec">Experience and education</h2>
+<ul class="plain">
+{{ range hugo.Data.experience }}<li><span><strong>{{ index . 0 }}</strong> · {{ index . 1 }}</span><span class="muted">{{ index . 2 }}</span></li>{{ end }}
+</ul>
 
-            <h1>{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
-                <p>{{.}}</p>
-            {{- end }}
-
-            {{- with .Site.Params.social }}
-                <div>
-                    {{ partial "social-icons.html" . }}
-                </div>
-            {{- end }}
-        </div>
-        <br>
-        <webring-banner id="polyring">
-            <p>Member of the <a href="https://xyquadrat.ch/polyring">Polyring</a> webring.</p>
-        </webring-banner>
-        <script async src="https://xyquadrat.ch/polyring/embed.js" charset="utf-8"></script>
-            </main>
+<h2 class="sec">Old posts</h2>
+<ul class="plain">
+{{ range (where site.RegularPages "Section" "posts") }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="muted">{{ .Date.Format "2006" }}</span></li>{{ end }}
+</ul>
 {{ end }}

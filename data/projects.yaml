@@ -1,0 +1,39 @@
+# Shown on the homepage in this order. image is optional (path under static/).
+- title: LeRobot contributions
+  year: 2026
+  text: >-
+    Bug fixes and features for Hugging Face's open-source robot learning library.
+    Merged: per-episode simulator metrics in eval output. More PRs in review.
+  links:
+    - [merged PR, https://github.com/huggingface/lerobot/pull/5279]
+    - [all PRs, "https://github.com/huggingface/lerobot/pulls?q=author%3AxSurus"]
+
+- title: Soot & Steel
+  year: 2026
+  image: img/soot-steel.jpg
+  text: >-
+    4-player co-op survival game built in MonoGame by a team of six for ETH's Game Programming Lab.
+    I owned design, engine and gameplay. Audience Award (1st of 15 teams) and Jury Award (3rd)
+    at the ETH Game Technology Center showcase; presented at Gamescom.
+  links:
+    - [trailer, https://www.youtube.com/watch?v=7cGiY-7hZrk]
+    - [play on itch.io, https://olliesara.itch.io/soot-steel]
+    - [code, https://github.com/xSurus/SootAndSteel]
+
+- title: Monocular depth estimation under distribution shift
+  year: 2026
+  text: >-
+    Computational Intelligence Lab project. Frozen DINOv2 ViT-L encoder with a DPT head predicting
+    depth and confidence. A CLIP-based audit found vegetation scenes under-represented in training,
+    so we added diffusion-generated overgrown images and a CLIP-gated SAM refinement stage.
+  links:
+    - [code, https://github.com/xSurus/CIL_Monocular_depth]
+
+- title: Rusty Trader
+  year: 2022
+  text: >-
+    Rust CLI that follows US senators' disclosed stock trades and mirrors them through Alpaca's
+    trading API, running on a Raspberry Pi.
+  links:
+    - [code, https://github.com/xSurus/rusty_trader]
+    - [write-up, /posts/2022/12/rusty-trader/]

@@ -9,3 +9,4 @@ hugo.exe
 hugo.darwin
 hugo.linux
 themes/hello-friend-ng
+.hugo_build.lock
